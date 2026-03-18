@@ -1,0 +1,16 @@
+project_id = "apsxgpoymgtxlfcidozj"
+
+[functions]
+enabled = true
+
+[functions.import-google-places]
+verify_jwt = true
+
+[functions.generate-ad]
+verify_jwt = false
+
+[functions.ai-recommendations]
+verify_jwt = false
+
+[functions.analyze-reviews]
+verify_jwt = false
